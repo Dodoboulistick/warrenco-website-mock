@@ -14,13 +14,17 @@ header h1{
     font-size: 70px;
 }
 
+.highlight{
+    background-color: rgb(253, 236, 200);
+}
+
 
 /* #2 ABOUT ME */
 .about-me h1{
     font-size: 80px;
 }
 
-.about-me img{
+.about-me img, .thanks img#me{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     opacity: 0.9;
@@ -91,6 +95,7 @@ header h1{
 
 .portfolio .photos{
     padding-bottom: 100px;
+    margin-bottom: 200px;
     position: relative;
     display: flex;
     align-items: center;
@@ -130,4 +135,19 @@ header h1{
     width: 400px;
     transform: translateX(-100%);
     z-index: 6;
+}
+
+
+/* #6 THANKS */
+.thanks h1{
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.thanks img:not(#me), .thanks svg{
+    width: 100px;
+}
+
+.thanks p{
+    font-size: 22px;
 }
