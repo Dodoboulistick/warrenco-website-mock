@@ -1,0 +1,133 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-weight: 900;
+}
+
+
+/* #1 - HEADER */
+header h1{
+    font-size: 70px;
+}
+
+
+/* #2 ABOUT ME */
+.about-me h1{
+    font-size: 80px;
+}
+
+.about-me img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    opacity: 0.9;
+}
+
+
+/* #3 HARD SKILLS */
+.hard-skills h1{
+    font-size: 80px;
+}
+
+.hard-skills p{
+    font-size: 24px;
+}
+
+.hard-skills a{
+    color: black;
+}
+
+.hard-skills .icons > div > div{
+    background-color: #ededed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.hard-skills .icons > div > div:hover{
+    background-color: #e1e1e1;
+    cursor: pointer;
+}
+
+.hard-skills svg{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+
+
+/* #4 SOFT SKILLS */
+.soft-skills h1{
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.soft-skills ul{
+    padding-left: 0;
+}
+
+.soft-skills li{
+    font-size: 20px;
+    list-style: none;
+}
+
+/* #5 PORTFOLIO */
+.portfolio h1{
+    font-size: 80px;
+    line-height: 60px;
+}
+
+
+.portfolio .p-header{
+    padding-bottom: 250px;
+}
+
+.portfolio .photos{
+    padding-bottom: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio .photos img{
+    position: absolute;
+    max-width: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.portfolio .photos img#dorian{
+    width: 500px;
+    z-index: 10;
+}
+
+.portfolio .photos img#audiodream{
+    width: 450px;
+    transform: translateX(50%);
+    z-index: 9;
+}
+
+.portfolio .photos img#pjd{
+    width: 450px;
+    transform: translateX(-50%);
+    z-index: 8;
+}
+
+.portfolio .photos img#capitales{
+    width: 400px;
+    transform: translateX(100%);
+    z-index: 7;
+}
+
+.portfolio .photos img#ekko{
+    width: 400px;
+    transform: translateX(-100%);
+    z-index: 6;
+}
